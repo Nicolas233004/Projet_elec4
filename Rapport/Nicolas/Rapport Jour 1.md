@@ -20,6 +20,11 @@
 ### 3. Résultats obtenus
 - Les **6 capteurs DS18B20** ont été correctement détectés et leurs valeurs de température sont bien remontées.  
 - Le test est **concluant**.
+- 
+## ⚠️ Problèmes rencontrés
+- Problème de **connectique** avec le câble reliant les capteurs à l’**ESP32**.  
+- Nécessité d’installer le **driver du port COM** pour permettre la communication entre la carte et l’ordinateur.  
+- Après résolution de ces problèmes, le téléversement et les tests ont pu être effectués avec succès.
 
 ---
 
