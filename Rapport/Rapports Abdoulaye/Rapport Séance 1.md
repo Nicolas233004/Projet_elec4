@@ -46,5 +46,3 @@ Notre prochaine séance sera consacrée au diagnostic approfondi du problème de
 - Léandro & Sean : Conception carte électronique et PCB
 - Nicolas & Abdoulaye : Programmation ESP32
 
-*Document rédigé pour le dépôt GitHub du projet - Système de Régulation Thermique pour Ruche*  
-*Polytech Nice-Sophia - Année Universitaire [Année]*
