@@ -1,4 +1,4 @@
-# Compte Rendu de Séance - Projet de Régulation Thermique pour Ruche
+# Compte Rendu de Séance 1 - Projet de Régulation Thermique pour Ruche
 
 ## Contexte et Objectifs de la Séance
 
