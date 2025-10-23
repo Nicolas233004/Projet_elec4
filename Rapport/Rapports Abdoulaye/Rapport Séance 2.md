@@ -32,4 +32,3 @@ Le développement de l'algorithme de régulation thermique pourra alors commence
 
 ---
 
-*Séance productive ayant permis de valider les actionneurs et d'avancer significativement sur l'acquisition des données capteurs*
