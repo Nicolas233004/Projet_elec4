@@ -1,4 +1,4 @@
-# Rapport de Séance 1 - Tests des Actionneurs et Capteurs
+# Rapport de Séance 2 - Tests des Actionneurs
 
 ## Tests des Résistances Chauffantes
 
