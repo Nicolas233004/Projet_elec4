@@ -6,7 +6,7 @@ Lors de cette séance, nous avons procédé au test des résistances chauffantes
 
 La mesure de la tension aux bornes des résistances à l'aide d'un voltmètre nous a permis de confirmer que l'alimentation électrique était correctement établie et que les résistances étaient prêtes à assurer leur fonction de chauffage.
 
-## 🔌 Validation du Convertisseur de Tension
+## Validation du Convertisseur de Tension
 
 Le système nécessitant une alimentation différenciée entre les actionneurs, nous avons testé le convertisseur 30V/12V destiné à alimenter les ventilateurs. Après avoir appliqué les 30V en entrée du convertisseur, nous avons mesuré la tension de sortie avec précision.
 
