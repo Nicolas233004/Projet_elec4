@@ -1,0 +1,60 @@
+# Compte rendu : Séance 2  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+
+---
+
+## 1. Objectifs de la séance
+- Réaliser un schéma électrique complet du toit chauffant.  
+- Commencer la réorganisation et la rénovation du câblage du système.  
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Réalisation du plan électrique
+Un plan électrique complet du toit a été dressé. Il inclut :
+- Le câblage des **ventilateurs** vers la carte principale.  
+- Le raccordement des **résistances de chauffe**.  
+- Le branchement des **capteurs de température**.  
+
+L’ensemble du système électrique du toit a été **divisé en deux ailes indépendantes**, afin de permettre un pilotage autonome.  
+Chaque aile est contrôlée par un cœur du **microcontrôleur ESP32** (double cœur) :
+- **Cœur 1 :** pilotage de la première aile (résistances, capteurs, ventilateurs).  
+- **Cœur 2 :** pilotage de la seconde aile.  
+
+Cette architecture garantit une gestion simultanée et équilibrée des deux zones du toit.
+
+---
+
+### 2.2. Début de la modification du câblage
+Avec l’aide de **Léandro**, la séance a également été consacrée à la **modification du câblage existant**.  
+Deux objectifs principaux :
+1. **Rendre le câblage plus propre et organisé.**  
+2. **Faire sortir les câbles par le dessus du toit** pour un accès plus pratique.  
+
+Le toit se compose de deux compartiments superposés :
+- **Compartiment inférieur :** résistances de chauffe, ventilateurs et capteurs.  
+- **Compartiment supérieur :** carte de commande à base d’ESP32.  
+
+Le travail a consisté à revoir le passage des câbles entre ces deux niveaux pour améliorer la maintenance et la fiabilité du système.
+
+---
+
+## 3. Bilan de la séance
+Les bases de la structure électrique sont maintenant bien établies.  
+Le plan global du toit est cohérent et intègre la séparation des ailes.  
+La rénovation du câblage est en bonne voie, même si elle reste à finaliser.
+
+---
+
+## 4. Prochaine séance
+- Finaliser et mettre **au propre le plan électrique**.  
+- Poursuivre la **rénovation complète du câblage** du toit.  
+
+---
+
+## 5. Annexes
+- Composant central : *ESP32 double cœur*  
+- Collaboration : *Travail effectué avec Léandro*  
+- Documents produits : *Plan électrique du toit chauffant*  
