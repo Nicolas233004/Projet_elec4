@@ -1,0 +1,58 @@
+# Compte rendu : Séance 1  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** [à compléter]  
+**Auteur :** [ton nom]  
+
+---
+
+## 1. Présentation du projet
+Le projet consiste à concevoir un toit chauffant destiné aux ruches d’abeilles.  
+Ce système vise à réguler la température interne afin d’éliminer les varroas sans nuire à la colonie.  
+
+Le projet se divise en deux grandes parties :
+- **Partie électronique :** conception du circuit d’alimentation et de régulation thermique.  
+- **Partie informatique :** développement du système de commande et de supervision.  
+
+Je travaille sur la **partie électronique**.
+
+---
+
+## 2. Objectifs de la séance
+- Prendre connaissance du matériel disponible.  
+- Mettre en place l’environnement de travail pour la conception électronique.  
+- Rédiger le **CCTP** (Cahier des Clauses Techniques Particulières).
+
+---
+
+## 3. Déroulement de la séance
+
+### 3.1. Prise en main du matériel
+Inventaire et vérification des composants et équipements nécessaires à la conception :  
+- Composants de puissance (résistances chauffantes, MOSFETs, capteurs de température, etc.)  
+- Matériel de prototypage (alimentation, multimètre, oscilloscope, fer à souder).  
+- Consultation de la documentation technique associée.
+
+### 3.2. Mise en place de l’environnement de travail
+- Installation et configuration de **Autodesk Eagle** pour la conception du PCB.  
+- Création du projet sur l’environnement local.  
+- Organisation des bibliothèques de composants nécessaires.
+
+### 3.3. Rédaction du CCTP
+- Définition des besoins fonctionnels et contraintes techniques.  
+- Spécification des tensions, courants et puissances attendus.  
+- Description des interfaces capteurs/actionneurs et de la partie commande.  
+
+---
+
+## 4. Bilan de la séance
+Séance principalement dédiée à la préparation du projet.  
+Les bases sont posées : environnement opérationnel, compréhension du matériel, et CCTP rédigé.  
+
+Prochaine étape : commencer la **conception du schéma électronique** et valider le dimensionnement thermique.
+
+---
+
+## 5. Annexes
+- Logiciel utilisé : *Autodesk Eagle*  
+- Documents produits : *CCTP - Toit chauffant pour ruche d’abeilles*  
