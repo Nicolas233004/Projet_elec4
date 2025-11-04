@@ -50,9 +50,6 @@ Le retard dans la soudure des composants par l'autre binôme m'a empêché de :
 ### Perspectives
 Une fois le matériel disponible, je pourrai tester le code et voir s'il fonctionne correctement. En cas de problème, je devrai le corriger avant de passer à l'étape suivante.
 
-### Bilan Personnel
-Cette séance m'a permis de bien comprendre le dual-core de l'ESP32. Je suis prêt à tester dès que le matériel est disponible.
-
 ---
 
 *Abdoulaye Baldé*
