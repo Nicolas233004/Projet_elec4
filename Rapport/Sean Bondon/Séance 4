@@ -1,0 +1,48 @@
+# Compte rendu : Séance 4  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.
+
+---
+
+## 1. Objectifs de la séance
+- Percer le toit pour permettre l’installation de la carte électronique.  
+- Adapter le câblage en prévision du nouveau système de fermeture à charnière.  
+- Vérifier le fonctionnement électrique général du montage.  
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Perçage du haut du toit
+Le **haut du toit** a été percé afin de permettre l’intégration de la **carte électronique**.  
+Cette opération avait pour but de préparer l’installation définitive de la carte tout en conservant un accès pratique aux câbles et aux connecteurs.
+
+### 2.2. Reprise du câblage
+Suite à la mise en place d’un **système de fermeture à charnière**, il a été nécessaire de **reprendre le câblage** existant.  
+Désormais, le toit doit pouvoir **s’ouvrir sans nécessiter de dessouder les fils**, ce qui a imposé une réorganisation complète des connexions.  
+Les longueurs de câble et les points de passage ont donc été ajustés pour permettre cette mobilité sans contrainte mécanique.
+
+### 2.3. Apparition d’un court-circuit
+Un **problème de court-circuit** a été détecté sur la carte.  
+Ce dysfonctionnement empêche actuellement le fonctionnement normal du montage.  
+Une inspection approfondie sera nécessaire pour localiser et corriger la source du défaut (soudure, piste endommagée ou composant défectueux).
+
+---
+
+## 3. Bilan de la séance
+Le toit est désormais percé et prêt à accueillir la carte électronique.  
+Le câblage a été adapté pour s’intégrer au nouveau système à charnière.  
+Cependant, le court-circuit identifié devra être résolu avant toute mise sous tension prolongée.
+
+---
+
+## 4. Prochaine séance
+- **Mettre au propre le plan électrique.**  
+- **Diagnostiquer et corriger le court-circuit** sur la carte.  
+
+---
+
+## 5. Annexes
+- Modification mécanique : *Ajout d’un système à charnière pour l’ouverture du toit.*  
+- Problème rencontré : *Court-circuit sur la carte électronique.*  
+- Documents à mettre à jour : *Plan électrique du toit chauffant.*  
