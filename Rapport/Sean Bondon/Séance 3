@@ -1,0 +1,50 @@
+# Compte rendu : Séance 3  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.
+
+---
+
+## 1. Objectifs de la séance
+- Poursuivre les travaux de câblage et d’assemblage du toit chauffant.  
+- Former Léandro aux techniques de soudure.  
+- Finaliser la rédaction du CCTP.  
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Assistance à la soudure
+J’ai accompagné **Léandro** dans l’apprentissage de la **soudure**.  
+Nous avons finalisé la **ligne des capteurs** d’une des deux ailes du toit.  
+Cette étape a permis de consolider le câblage et de garantir la fiabilité des connexions entre les capteurs et la carte principale.
+
+### 2.2. Reprise du câblage des résistances de chauffe
+J’ai ensuite procédé au **recâblage complet des résistances de chauffe**.  
+Les fils ont été **allongés** afin d’améliorer leur passage et de faciliter le futur montage dans la structure du toit.  
+Cette modification permettra un câblage plus propre et mieux organisé lors de l’intégration finale.
+
+### 2.3. Finalisation du CCTP
+Le **Cahier des Clauses Techniques Particulières (CCTP)** a été **finalisé** au cours de cette séance.  
+Il décrit désormais de manière exhaustive :
+- Les spécifications techniques de l’installation.  
+- Les contraintes électriques et mécaniques.  
+- Les éléments de commande et de sécurité.  
+
+---
+
+## 3. Bilan de la séance
+Les soudures de capteurs sont terminées, le câblage des résistances est corrigé, et le CCTP est finalisé.  
+Le projet avance de manière structurée, avec un ensemble désormais plus clair et mieux organisé.
+
+---
+
+## 4. Prochaine séance
+- Mettre **au propre le plan électrique**.  
+- **Percer le haut du toit** afin d’y installer la carte électronique.  
+- Réaliser le **câblage final propre et fonctionnel** du système.  
+
+---
+
+## 5. Annexes
+- Collaboration : *Travail effectué avec Léandro*  
+- Documents produits : *CCTP finalisé - Toit chauffant pour ruche d’abeilles*  
