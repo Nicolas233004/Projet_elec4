@@ -1,0 +1,52 @@
+# Compte rendu : Séance 5  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** 27/11/2025
+
+---
+
+## 1. Objectifs de la séance
+- Diagnostiquer le court-circuit supposé sur la carte.
+- Vérifier le fonctionnement du circuit de commande.
+- Corriger les problèmes de câblage et de faux-contact.
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Analyse du court-circuit supposé
+Un court-circuit avait été identifié lors de la séance précédente.  
+Après une analyse complète du circuit, il s’est avéré que ce “court-circuit” était en réalité **lié à la limitation de courant** de l’alimentation stabilisée, trop faible pour alimenter correctement la carte et ses charges.  
+L’alimentation se mettait donc en sécurité, donnant l’illusion d’un court-circuit.
+
+Pour corriger ce comportement, les **résistances de charge ont été remplacées par des résistances de 1 kΩ**.  
+Suite à ce changement, le fonctionnement est redevenu normal et il a été possible d’observer :
+- une **tension carrée** aux bornes de la résistance de charge,
+- une tension correspondante aux bornes des **transistors de pilotage**, confirmant l’activité du circuit de commande.
+
+### 2.2. Problème de faux-contact et reprise des soudures
+Un problème de **faux-contact** a ensuite été détecté sur les fils d’alimentation de la carte et sur ceux liés aux résistances.  
+Pour corriger cela, l’ensemble des fils concernés a été **ressoudé** afin d’assurer des connexions fiables.
+
+### 2.3. Nouveau faux-contact lors de la réparation
+Lors de la reprise des soudures, un **nouveau faux-contact** est apparu sur la carte.  
+Il n’a pas pu être traité durant la séance et devra être résolu lors de la prochaine intervention.
+
+---
+
+## 3. Bilan de la séance
+Le comportement du montage est désormais clarifié : le court-circuit n’était pas réel mais dû à la protection de l’alimentation.  
+Les signaux de commande ont été validés avec les résistances de 1 kΩ.  
+Cependant, la présence persistante d’un faux-contact empêche encore le fonctionnement parfaitement stable du système.
+
+---
+
+## 4. Prochaine séance
+- Résoudre le **faux-contact restant** sur la carte.
+- Vérifier le fonctionnement complet après réparation.
+- Finaliser le câblage propre.
+
+---
+
+## 5. Annexes
+- Problème rencontré : faux-contact persistant à corriger.  
