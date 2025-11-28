@@ -1,6 +1,6 @@
 # 🧾 Rapport journalier – Séance 5
 
-**Date :** 12 octobre 2025  
+**Date :** 27 Novembre 2025  
 **Projet :** Développement ESP32 – Tests matériel & corrections câblage  
 
 ---
