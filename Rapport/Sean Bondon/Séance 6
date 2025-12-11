@@ -1,0 +1,59 @@
+# Compte rendu : Séance 6  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** 28/11/2025
+---
+
+## 1. Objectifs de la séance
+- Comprendre l’origine du court-circuit persistant sur l’aile 2 du toit.  
+- Tester le fonctionnement de la résistance et des ventilateurs sur une seule aile.  
+- Identifier les composants défaillants ou manquants.
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Démontage partiel pour isoler le problème
+Le court-circuit sur la **partie 2 du toit** persistait malgré les vérifications précédentes.  
+N’ayant pas pu identifier son origine, les **câbles des résistances de cette partie ont été dessoudés**, afin d’écarter cette section du diagnostic.  
+Le problème semble provenir d’une **erreur ou d’un défaut antérieur** au travail de votre groupe.
+
+### 2.2. Tests sur une seule aile du toit
+L’analyse s’est poursuivie en se concentrant sur une seule aile du système.
+
+#### Fonctionnement de la résistance
+Après une **reprise des soudures**, la résistance s’est finalement comportée correctement.  
+Le dysfonctionnement provenait d’une **mauvaise soudure**, corrigée durant la séance.
+
+#### Fonctionnement des ventilateurs
+Les ventilateurs, eux, **ne fonctionnaient pas**.  
+Une observation à l’oscilloscope a révélé que les **transistors de commande ne commutaient pas**.
+
+En examinant le schéma électrique, il est apparu que :
+- les **diodes de roue libre**, censées protéger les transistors contre les surtensions des ventilateurs,  
+- **étaient totalement absentes** du montage.
+
+Cette absence empêche les transistors de travailler dans des conditions normales et peut les endommager, ce qui explique leur non-commutation.
+
+### 2.3. Collaboration
+Le dépannage et les analyses ont été réalisés en coopération avec **Nicolas Roth**.
+
+---
+
+## 3. Bilan de la séance
+- L’aile 2 a été partiellement démontée pour isoler le court-circuit non résolu.  
+- La résistance de l’aile 1 fonctionne correctement après correction d’une soudure défaillante.  
+- Les ventilateurs ne fonctionnent pas à cause de l’absence de diodes de roue libre et de transistors probablement endommagés.
+
+---
+
+## 4. Prochaine séance
+- **Remplacer les transistors de pilotage des ventilateurs.**  
+- **Installer les diodes de roue libre** manquantes sur les ventilateurs.  
+- Continuer les tests du fonctionnement global sur une aile.
+
+---
+
+## 5. Annexes
+- Problème majeur : absence de diodes de roue libre sur les ventilateurs.  
+- Collaboration : séance effectuée avec *Nicolas Roth*.  
