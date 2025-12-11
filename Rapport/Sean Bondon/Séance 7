@@ -1,0 +1,55 @@
+# Compte rendu : Séance 7  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** [11/12/2025]
+
+---
+
+## 1. Objectifs de la séance
+- Remplacer les transistors de pilotage des ventilateurs.  
+- Installer les diodes de roue libre manquantes.  
+- Tester à nouveau les deux ailes du toit.  
+- Vérifier le comportement des résistances et des capteurs.
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Réparation du pilotage des ventilateurs
+Les **transistors ont été remplacés** et les **diodes de roue libre** ont été installées sur les deux ailes.  
+Après ces corrections, les **ventilateurs des deux parties ont fonctionné normalement**.
+
+### 2.2. Tests de la partie 1 et réapparition de problèmes sur les résistances
+Lors de la remise en test de la **partie 1**, un problème est réapparu sur les résistances.  
+Une **soudure fragile** sur le fil d’alimentation a entraîné un **faux-contact**, et le **pad de la carte était abîmé**.
+
+Pour contourner le problème, la résistance a été **directement soudée sur le transistor** de commande.  
+Suite à cette modification :
+- **La partie gauche** de la maquette a fonctionné,  
+- Puis, après plusieurs essais, **la partie droite** a également fonctionné correctement.
+
+### 2.3. Problème détecté sur les capteurs de la partie droite
+Un nouveau dysfonctionnement a été observé :  
+les **capteurs de température de la partie droite** renvoient des **valeurs incorrectes**.  
+La cause n’a pas encore été identifiée et devra être résolue dans la prochaine séance.
+
+---
+
+## 3. Bilan de la séance
+- Ventilateurs réparés et pleinement opérationnels.  
+- Résistances fonctionnelles après reprise des soudures et réparation d’un pad arraché.  
+- Les deux ailes chauffent correctement.  
+- Problème restant : les capteurs de la partie droite renvoient des valeurs erronées.
+
+---
+
+## 4. Prochaine séance
+- Diagnostiquer et corriger le **problème des capteurs de la partie droite**.  
+- Vérifier le câblage, les soudures et les connexions de la chaîne de mesure.  
+- Continuer les tests du fonctionnement global.
+
+---
+
+## 5. Annexes
+- Modifications effectuées : remplacement des transistors, ajout des diodes de roue libre, reprise des soudures.  
+- Problème restant : valeurs incohérentes sur les capteurs droit.  
