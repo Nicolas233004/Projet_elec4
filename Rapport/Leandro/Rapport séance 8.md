@@ -1,7 +1,7 @@
-Rapport de Séance 8
-Date : 20/01/2026
-Nom : Leandro Euphrasie
-Formation : ELSE 4 – FISA
+## Rapport de Séance 8
+#Date : 20/01/2026
+#Nom : Leandro Euphrasie
+#Formation : ELSE 4 – FISA
 
 ## 1. Continuation du support visuel
 En vu de la soutenance du projets l'objectif de ma seance a etait de finir les slides commencer a la seance precedente.
