@@ -1,4 +1,4 @@
-## Rapport de Séance 8
+## Rapport Séance 8
 Date : 20/01/2026
 Nom : Leandro Euphrasie
 Formation : ELSE 4 – FISA
