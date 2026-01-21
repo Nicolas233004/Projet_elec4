@@ -1,4 +1,4 @@
-# Rapport de Séance 3  
+# Rapport Séance 3  
 **Date :** 04/11/2025  
 **Nom :** Leandro Euphrasie  
 **Formation :** ELSE 4 – FISA  
