@@ -1,0 +1,52 @@
+# Compte rendu : Séances 8 et 9  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite par chauffage contrôlé de la ruche.  
+**Date :** 20/01/2026 et 03/02/2026
+
+---
+
+## 1. Objectifs des séances
+- Préparer la présentation pour l’oral de fin de semestre.  
+- Tenter de résoudre les problèmes persistants sur les résistances et les capteurs.  
+
+---
+
+## 2. Déroulement des séances
+
+### 2.1. Préparation de la présentation orale
+Une partie des séances a été consacrée à la **préparation de la présentation pour l’oral de fin de semestre**.  
+Cette présentation synthétise :
+- les objectifs du projet,  
+- les choix techniques effectués,  
+- les problèmes rencontrés et les solutions mises en place,  
+- l’état actuel d’avancement du toit chauffant.
+
+### 2.2. Problème sur la ligne de résistance n°2
+Un **nouveau problème est apparu sur la ligne de résistance n°2**.  
+Plusieurs tentatives de dépannage ont été réalisées (vérification du câblage, des soudures et des composants), mais **le dysfonctionnement n’a pas pu être résolu** au cours de ces séances.
+
+### 2.3. Problèmes persistants sur la ligne des capteurs
+Les **problèmes précédemment identifiés sur la ligne des capteurs** n’ont pas pu être corrigés.  
+Malgré les essais effectués, les valeurs mesurées restent incohérentes, indiquant un défaut toujours présent dans la chaîne de mesure (capteurs, câblage ou interface avec la carte).
+
+---
+
+## 3. Bilan des séances
+- La présentation pour l’oral de fin de semestre est finalisée.  
+- La ligne de résistance n°2 reste défaillante.  
+- Les problèmes sur la ligne des capteurs persistent et n’ont pas été résolus.  
+
+Ces séances ont permis de clarifier l’état réel du projet, même si certaines difficultés techniques demeurent.
+
+---
+
+## 4. Prochaines étapes
+- Reprendre le diagnostic de la **ligne de résistance n°2**.  
+- Identifier précisément l’origine du problème sur la **ligne des capteurs**.  
+- Stabiliser le fonctionnement global du système avant toute validation finale.
+
+---
+
+## 5. Annexes
+- Travail réalisé : présentation orale de fin de semestre.  
+- Problèmes non résolus : résistance n°2 et capteurs.
