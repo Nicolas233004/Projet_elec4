@@ -1,0 +1,43 @@
+# Compte rendu : Séance 10  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** 03/02/2026
+
+---
+
+## 1. Objectifs de la séance
+- Diagnostiquer le dysfonctionnement de la ligne n°2 de résistances.  
+- Identifier les composants défaillants.  
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Analyse de la ligne n°2 de résistances
+La séance a été consacrée à l’analyse approfondie de la **ligne n°2 de résistances**.  
+Après avoir **remonté l’ensemble de la ligne**, des tests ont permis d’identifier la source du problème.
+
+Il a été constaté que les **deux transistors chargés de piloter les résistances étaient défaillants**.
+
+### 2.2. Remplacement partiel des transistors
+- **Un premier transistor a été remplacé**, ce qui permet d’envisager un retour partiel du fonctionnement.  
+- Le **second transistor n’a pas pu être remplacé**, celui-ci étant **manquant** au moment de la séance.
+
+---
+
+## 3. Bilan de la séance
+- L’origine du problème sur la ligne n°2 est désormais identifiée.  
+- Un transistor a été remplacé, mais la ligne reste incomplète et non fonctionnelle en l’absence du second composant.  
+
+---
+
+## 4. Prochaine séance
+- Trouver et **remplacer le transistor manquant**.  
+- Tester à nouveau le fonctionnement complet de la ligne n°2 de résistances.  
+- Vérifier qu’aucun autre composant n’a été endommagé.
+
+---
+
+## 5. Annexes
+- Problème identifié : transistors de pilotage défaillants sur la ligne n°2.  
+- État actuel : remplacement partiel, ligne non pleinement opérationnelle.  
