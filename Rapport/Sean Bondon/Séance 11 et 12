@@ -1,0 +1,62 @@
+# Compte rendu : Séances 11 et 12  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Dates :** 17/02 et 19/02  
+
+---
+
+## 1. Objectifs des séances
+- Finaliser l’intégration mécanique (charnières).  
+- Résoudre les problèmes persistants sur les lignes d’alimentation des résistances.  
+- Stabiliser le fonctionnement global de la carte.
+
+---
+
+## 2. Déroulement des séances
+
+### 2.1. Fixation des charnières
+Les **charnières ont été fixées sur la maquette** avec l’aide de Nicolas.  
+Cette étape permet désormais l’ouverture du toit tout en conservant l’intégrité du câblage.
+
+### 2.2. Diagnostic de la ligne des résistances
+Le transistor précédemment identifié comme défectueux a été remplacé.  
+Cependant, le problème persistait.
+
+Après avoir remonté les deux lignes d’alimentation des résistances, il a été constaté qu’**aucune tension n’était présente sur le transistor de puissance Q3**.
+
+Après plusieurs vérifications, il a été déterminé que la **résistance R6 était dégradée**.  
+Elle a donc été remplacée.
+
+Suite à cette intervention, la **ligne concernée a fonctionné correctement**.
+
+### 2.3. Problème sur l’autre ligne
+Un second problème est apparu : une **tension restait présente en permanence sur l’autre partie**, ce qui indiquait un défaut de commande.
+
+Les investigations ont conduit à suspecter le **transistor Q5**.  
+Cependant, celui-ci était physiquement inaccessible car situé sous un étage de puissance.
+
+Un système permettant de **déplacer et manipuler la carte plus facilement** a donc été mis en place afin d’accéder au composant.
+
+Le transistor Q5 a ensuite été remplacé.
+
+Après cette intervention, **la carte fonctionne correctement**.
+
+---
+
+## 3. Bilan des séances
+- Intégration mécanique finalisée avec les charnières.  
+- Remplacement de R6 ayant permis de rétablir le fonctionnement de la première ligne.  
+- Remplacement du transistor Q5 ayant corrigé le défaut sur la seconde ligne.  
+- La carte est désormais fonctionnelle.
+
+---
+
+## 4. Prochaines étapes
+Les prochaines actions seront définies lors de la prochaine séance, en fonction des essais globaux et des besoins restants du projet.
+
+---
+
+## 5. Annexes
+- Collaboration : travail réalisé avec Nicolas.  
+- Composants remplacés : R6, transistor Q5.  
+- Problèmes résolus : absence de tension sur Q3, tension permanente sur la seconde ligne.  
