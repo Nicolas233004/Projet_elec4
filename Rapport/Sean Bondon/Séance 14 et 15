@@ -1,0 +1,56 @@
+# Compte rendu : Séances 14 et 15  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** 17/03/2026  
+
+---
+
+## 1. Objectifs des séances
+- Résoudre les problèmes de redémarrage de la carte.  
+- Remettre en état la chaîne de mesure des capteurs.  
+- Ajouter une nouvelle ligne de mesure de température dans la ruche.
+
+---
+
+## 2. Déroulement des séances
+
+### 2.1. Résolution du problème de redémarrage
+Le problème de **redémarrages aléatoires** persistait en début de séance.  
+
+Des modifications ont d’abord été apportées au **programme**, ce qui a permis de **réduire temporairement les redémarrages**.  
+
+Le problème a ensuite été **corrigé définitivement par Nicolas**, avec assistance sur une partie du diagnostic et des tests.  
+La carte fonctionne désormais de manière stable.
+
+### 2.2. Remplacement d’un capteur défectueux
+Un **capteur endommagé** a été identifié puis **remplacé** afin de rétablir des mesures fiables.
+
+### 2.3. Création d’une nouvelle ligne de capteur
+Une **nouvelle ligne de capteur** a été réalisée.  
+Cette ligne est destinée à être connectée sur le **pad CT2**.
+
+Contrairement aux autres capteurs positionnés dans le toit, ce nouveau capteur permet de :
+- mesurer directement la **température à l’intérieur de la ruche**,  
+- obtenir une donnée plus représentative de l’environnement des abeilles.
+
+---
+
+## 3. Bilan des séances
+- Les redémarrages ont été résolus.  
+- La carte fonctionne désormais de manière stable.  
+- Un capteur défectueux a été remplacé.  
+- Une nouvelle ligne de mesure a été ajoutée pour améliorer la pertinence des données.
+
+---
+
+## 4. Prochaines étapes
+- Tester la cohérence des mesures entre les différents capteurs.  
+- Valider le fonctionnement global en conditions réelles.  
+- Finaliser l’intégration du système.
+
+---
+
+## 5. Annexes
+- Collaboration : dépannage réalisé avec Nicolas.  
+- Modifications : remplacement d’un capteur et ajout d’une ligne CT2.  
+- Amélioration : mesure directe de la température dans la ruche.  
