@@ -15,8 +15,8 @@ Le dysfonctionnement de l'affichage a été identifié comme une **erreur d'assi
 
 ### Correction du câblage :
 * **Erreur identifiée :** La broche **DC** (Data/Command) de l'écran était câblée sur le **GPIO 2** au lieu du **GPIO 21**. Le GPIO 2 étant une broche de "strapping" (utilisée lors du boot de l'ESP32), cela interférait avec l'initialisation du driver ILI9341 et provoquait un conflit au démarrage.
-* **Action :** Basculement du signal DC sur le **GPIO 21** et raccordement du VCC au **5V (VIN)** de l'ESP32. 
-* **Justification technique :** Le passage au 5V garantit une tension stable pour le driver et le rétroéclairage, tandis que le GPIO 21 est une broche de données standard ne perturbant pas le cycle de démarrage (boot) de la puce.
+* **Action :** Basculement du signal DC sur le **GPIO 21**.
+* **Justification technique :**Le GPIO 21 est une broche de données standard ne perturbant pas le cycle de démarrage (boot) de la puce.
 * **Résultat :** L'écran est devenu immédiatement fonctionnel, permettant de passer au développement de l'interface utilisateur.
 
 ## 3. Développement de l'Interface "TOIT CHAUFFANT"
