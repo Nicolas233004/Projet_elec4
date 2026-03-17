@@ -1,0 +1,54 @@
+# Compte rendu : Séance 13  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** 05/03/2026  
+
+---
+
+## 1. Objectifs de la séance
+- Identifier la cause des redémarrages aléatoires de la carte.  
+- Tester des solutions pour stabiliser l’alimentation.  
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Analyse du problème de redémarrage
+La carte présentait des **redémarrages aléatoires**, indiquant un problème de stabilité.  
+Plusieurs hypothèses ont été envisagées, notamment un **manque de puissance ou des microcoupures au niveau de l’alimentation**.
+
+### 2.2. Modification de la cellule de filtrage
+Pour limiter les effets des microcoupures, une modification a été apportée à la **cellule de filtrage en entrée de la carte**.
+
+Les condensateurs **C1 et C2** ont été modifiés :
+- remplacement d’un **condensateur de 100 nF**  
+- par un **condensateur de 47 µF**, afin d’augmenter la capacité de filtrage et de stabilisation de la tension.
+
+### 2.3. Résultat des modifications
+Malgré cette modification, le problème de **redémarrage aléatoire persiste**.  
+Cela indique que l’origine du défaut ne se limite pas à un simple manque de capacité de filtrage.
+
+### 2.4. Collaboration
+Les analyses et modifications ont été réalisées en collaboration avec **Nicolas**.
+
+---
+
+## 3. Bilan de la séance
+- Hypothèse d’un problème d’alimentation explorée.  
+- Capacité de filtrage augmentée sur l’entrée de la carte.  
+- Aucune amélioration significative observée.  
+- Le problème de redémarrage reste non résolu.
+
+---
+
+## 4. Prochaine séance
+- Poursuivre le diagnostic de l’alimentation (stabilité, courant disponible).  
+- Vérifier les autres causes possibles : régulation, connexions, ou parasites.  
+- Mettre en place des mesures plus précises (oscilloscope, analyse des chutes de tension).
+
+---
+
+## 5. Annexes
+- Modification effectuée : augmentation des capacités C1 et C2.  
+- Problème persistant : redémarrages aléatoires de la carte.  
+- Collaboration : séance réalisée avec Nicolas.  
