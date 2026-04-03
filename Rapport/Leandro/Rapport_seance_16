@@ -1,0 +1,38 @@
+# Rapport de Séance 16
+
+**Date :** 03/04/26
+**Nom :** Leandro Euphrasie
+**Formation :** ELSE 4 – FISA
+**Sujet :** Extension du monitoring thermique : Intégration de la température intérieure de la ruche
+
+---
+
+## 1. Objectifs de la séance
+L'objectif principal de cette séance était d'enrichir l'interface utilisateur et la logique de traitement des données pour afficher a la fois :
+* La **température ambiante** (extérieure).
+* La **température intérieure** de la ruche.
+* La **consigne** de régulation du toit.
+
+## 2. Évolutions Logicielles
+
+### Traitement du flux JSON
+Le programme principal a été mis à jour pour exploiter la nouvelle structure du serveur. L'ESP32 extrait désormais trois variables distinctes via la bibliothèque `ArduinoJson` :
+* `temp` : Température ambiante.
+* `setpoint` : Consigne actuelle.
+* `temp_interieur` : Donnée issue de la sonde interne de la ruche.
+
+> **Optimisation réseau :** J'ai configuré un `http.setTimeout(150)`. Ce délai court permet d'éviter que l'interface ne se fige si le serveur met trop de temps à répondre.
+
+### Mise à jour de la classe `Affichage`
+Le fichier `Affichage.cpp` a etait modifier pour le rendre plus ergonomique :
+* **Structuration spatiale :** Utilisation de `drawFastHLine` pour séparer visuellement le titre, les mesures et la consigne.
+* **Méthodes dédiées :** Création de `mettreAJourInterieur()` et `mettreAJourAmbiante()` pour un contrôle précis des zones d'écriture.
+* **Gestion du texte :** Utilisation de `setTextPadding(300)` pour effacer proprement les anciennes valeurs numériques sans avoir à redessiner tout l'écran (évite le scintillement).
+
+## Conclusion
+
+Cette séance 16 marque une étape clé dans le projet : le passage d'un simple afficheur de test à une véritable **interface de monitoring environnemental**. 
+
+Grâce à la restructuration du code et à l'optimisation du parsing JSON, l'affichage est désormais capable de gérer plusieurs flux de données en temps réel sans perte de fluidité. 
+L'implémentation de la logique de seuil ($\ge 0.1$ °C) et du padding logiciel garantit une lisibilité professionnelle, sans scintillement. 
+Le système est maintenant parfaitement fonctionnel pour assurer le suivi thermique précis de la ruche.
