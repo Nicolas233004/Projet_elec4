@@ -1,0 +1,58 @@
+# Compte rendu : Séance 16  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** 03/04/2026  
+
+---
+
+## 1. Objectifs de la séance
+- Assembler les différents éléments du toit chauffant.  
+- Intégrer proprement le capteur de température de la ruche.  
+- Adapter la mécanique pour préserver le câblage.
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Assemblage du toit chauffant
+Avec l’aide de Nicolas, le **toit chauffant a été assemblé**.  
+Cette étape marque l’intégration des différentes parties mécaniques et électroniques du système.
+
+### 2.2. Intégration du capteur de ruche
+Un **trou a été percé au centre de la plaque** afin de permettre le passage du **capteur de température de la ruche** jusqu’à la carte électronique.  
+Cela permet d’assurer une mesure directe et exploitable de la température interne de la ruche.
+
+### 2.3. Repositionnement des charnières
+Les **charnières ont été repositionnées** afin d’améliorer l’ouverture du toit.  
+
+L’objectif était de permettre l’ouverture de l’étage contenant :
+- les ventilateurs,  
+- les capteurs,  
+- les résistances,  
+- ainsi que la plaque de fermeture,  
+
+sans exercer de **contraintes mécaniques sur les câbles**.
+
+### 2.4. Fixation de la plaque
+La **plaque a été fixée sur l’étage chauffant du toit**, assurant la fermeture et la rigidité de l’ensemble.
+
+---
+
+## 3. Bilan de la séance
+- Le toit chauffant est désormais **assemblé mécaniquement**.  
+- Le capteur de ruche est correctement intégré.  
+- Les contraintes sur le câblage ont été réduites grâce au repositionnement des charnières.  
+- L’ensemble est plus robuste et prêt pour les tests finaux.
+
+---
+
+## 4. Prochaines étapes
+- Réaliser des tests complets en conditions réelles.  
+- Vérifier la fiabilité mécanique et électrique de l’ensemble.  
+- Valider le fonctionnement global du système.
+
+---
+
+## 5. Annexes
+- Collaboration : séance réalisée avec Nicolas.  
+- Modifications mécaniques : perçage, repositionnement des charnières, fixation de la plaque.  
