@@ -1,0 +1,54 @@
+# Compte rendu : Séance 17  
+**Projet :** Toit chauffant pour ruche d’abeilles  
+**Objectif général :** Éliminer le parasite *Varroa destructor* par chauffage contrôlé de la ruche.  
+**Date :** 10/04/2026  
+
+---
+
+## 1. Objectifs de la séance
+- Poursuivre l’assemblage mécanique du toit chauffant.  
+- Améliorer la gestion du passage des câbles.  
+- Intégrer la carte électronique dans la structure.
+
+---
+
+## 2. Déroulement de la séance
+
+### 2.1. Amélioration du passage des câbles
+Avec l’aide de Nicolas, des **lattes ont été ajoutées** afin de **boucher les passages des câbles**.  
+
+L’objectif est d’éviter que les câbles ne dépassent lors de l’ouverture ou de la fermeture du toit, et ainsi :
+- limiter les contraintes mécaniques,  
+- améliorer la sécurité et la propreté de l’ensemble.
+
+### 2.2. Intégration de la carte électronique
+Un **cadre a été fixé sur la plaque** fermant l’étage chauffant.  
+Ce cadre permet désormais de **loger la carte électronique** de manière stable et protégée.
+
+### 2.3. Passage des câbles d’alimentation
+Un **trou de taille adaptée a été percé** afin de permettre le passage des **câbles d’alimentation de la carte**.  
+Cela facilite l’intégration électrique tout en maintenant une organisation cohérente du câblage.
+
+### 2.4. Finalisation de l’assemblage
+Le **cadre a été fixé** et l’ensemble du toit a été assemblé.  
+Des tests ont montré que le **toit fonctionne correctement** dans cette configuration.
+
+---
+
+## 3. Bilan de la séance
+- Passage des câbles amélioré grâce à l’ajout de lattes.  
+- Carte électronique correctement intégrée dans un cadre dédié.  
+- Câblage d’alimentation mis en place.  
+- Le système est fonctionnel après assemblage.
+
+---
+
+## 4. Prochaines étapes
+- Concevoir un **système plus optimisé pour le passage et la gestion des câbles**.  
+- Améliorer encore l’ergonomie et la robustesse de l’ensemble.
+
+---
+
+## 5. Annexes
+- Collaboration : séance réalisée avec Nicolas.  
+- Modifications mécaniques : ajout de lattes, fixation d’un cadre, perçage pour alimentation.  
