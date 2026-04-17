@@ -1,10 +1,10 @@
-﻿#include "timer.h"
+﻿/*#include "timer.h"
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
 
 // Data wire is plugged into port 2 on the Arduino
-#define ONE_WIRE_BUS 15
+#define ONE_WIRE_BUS 17
 
 // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
 OneWire oneWire(ONE_WIRE_BUS);
@@ -44,3 +44,4 @@ void loop() {
 
   delay(1000); // Attente d'une seconde avant de lire à nouveau les capteurs
 }
+*/
